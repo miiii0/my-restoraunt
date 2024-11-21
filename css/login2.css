@@ -1,0 +1,87 @@
+.LogIn {
+    width: 100%;
+    height: 50%;
+}
+
+.ww {
+    width: 370px;
+    justify-content: center;
+}
+
+legend {
+    font-size: 16px;
+}
+
+.number {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    width: 100%;
+    border-radius: 8px;
+    font-size: calc(10px + 4 * (100vw - 320px) / 880);
+}
+
+.numpass {
+    width: 90%;
+    height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.sub {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.SubmitBut {
+    height: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+    color: red;
+    margin-top: 3%;
+    font-size: calc(10px + 4 * (100vw - 320px) / 880);
+}
+
+.wall {
+    height: 0%;
+    width: 80%;
+    border: solid 1px gray;
+    margin: 10px 0px 10px 0px;
+}
+
+.LoginWith {
+    width: 90%;
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: space-between;
+}   
+
+.InLoginWith {
+    width: 100%;
+    height: 10%;
+    color: whitesmoke;
+    text-align: center;
+    font-size: calc(12px + 6 * (100vw - 320px) / 880);
+}   
+
+.ImgLogin {
+    width: 50px;
+    height: 50px;
+}
+
+.imggg {
+    width: 100%;
+    height: 100%;
+
+}

@@ -1,0 +1,140 @@
+html {
+background-color: #292929;
+font-family: MONOSPACE;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.TopMenu {
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    z-index: 100;
+
+}
+
+.center {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.buttons {
+    width: 60%;
+    height: 70%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    background-color: #949494;
+    flex-wrap: wrap;
+    border: 1px solid #292929;
+}
+
+.ButtonsTop {
+    margin: 0 10px 0 10px;
+    font-size: calc(10px + 6 * (100vw - 320px) / 880);
+
+    height: 50%;
+    border-radius: 5px;
+    background-color: whitesmoke	;
+    cursor: pointer;
+    color: red;
+    border: 1px solid black;
+    min-width: 0;
+    flex-shrink: 1;
+
+}
+
+.logo {
+    width: 15%;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.ImgLogo {
+    width: 30%;
+    height: 100%;
+    border-radius:50% ;
+    object-fit: contain;
+}
+
+.TextLogo {
+    color: red;
+-webkit-text-stroke: black 0.3px;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    min-width: 30%;
+}
+
+.TextDescription {
+    background-color: #575757;
+    border-radius: 10px;
+    margin-top: 70px;
+    width: 70%;
+    height: fit-content;
+    color: whitesmoke;
+    font-size: calc(18px + 3 * (100vw - 320px) / 880);
+    min-width: 400px;
+    text-align: justify;
+}
+
+.description {
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    color: whitesmoke;
+    font-size: calc(18px + 2 * (100vw - 320px) / 880);
+    max-height: 470px;
+    min-width: 400px;
+    margin-top: 10px;
+}
+
+.red {
+    color: red;
+}
+
+.socials {
+    width: 100%;
+    height: 13.715%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.a2 {
+    width: 7%;
+    height: 80%;
+    margin: 0 5px 0 5px;  
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+img {
+    width:  100%;
+    height: 100%;
+    object-fit: contain; 
+}
